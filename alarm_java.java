@@ -18,7 +18,6 @@ public class alarm_java {
                 boolean timesMatch = currentTimeWithSeconds.equals(time_set);	//Equating the exact time to the time entered by the user**.
                 Thread.sleep(1000);
 
-                //System.out.println("Time remaining: " + (time/1000)%60);
                 int currentHours = Integer.parseInt(currentTimeWithSeconds.substring(0, 2));
                 int currentMinutes = Integer.parseInt(currentTimeWithSeconds.substring(3, 5));
                 int currentSeconds = Integer.parseInt(currentTimeWithSeconds.substring(6, 8));
